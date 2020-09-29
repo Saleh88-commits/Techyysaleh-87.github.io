@@ -1,127 +1,113 @@
-*{
-    padding:0;
+ *{ 
     margin:0;
+    padding:0;
     box-sizing:border-box;
-    font-family: 'Nanum Gothic', sans-serif;
-         
-}
-body{
-    background:linear-gradient(70deg, #00c6a7,#1e4d92);
-    overflow-x:hidden;
+    font-family: 'Montserrat', sans-serif;
 
-
+ 
+ 
  }
 
+ body{
+
+      background:url("restaurant.jpg");
+        background-repeat:no-repeat;
+      background-size:cover;
         
-  .navbar{
+ }
 
-       width:100%;
-       display:flex;
-       margin-left:300px;
-       margin-top:-100px;
-       align-items:center;
-  
-  }
+ nav ul {
 
-  .navbar li{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      align-items:center;
+      margin-left:370px;
+      margin-top:30px;
+      width:60%;
+ }
 
-    list-style:none;
-    padding:19px 25px;
-    text-transform:uppercase;
-   }
-
-  .navbar li a{
-
-    color:white;
-    text-decoration:none;
-  
-  }
-
-  .navbar li a:hover{
-        
-       color:pink;
-       cursor:pointer; 
-  
-    
-  }
-
-  .button1{
+ nav ul li{
+       
+      font-size:20px;
+      list-style:none;
       
-    background:linear-gradient(90deg #00c6a7,#1e4d92);
+  }
 
+  nav ul li a{
 
- 
-    }
+    text-decoration:none;
+    color:white;
+     }
 
-    .button1:hover{
+  nav ul li a:hover{
 
-        cursor:pointer;
-        color:red;
-    }
+      
+    background:rgb(230, 165, 46);
 
+       transition:0.6s all;
 
-     
-    
-    .logo img{
-
-        width:17%;
-      }
-
-    .content h1{
-
-        margin-right:600px;
-        margin-top:80px;
-        margin-left:330px;
-        font-size:35px;
-        color:white;
-           }
-
-        button{
-
-            margin-left:330px;
-            margin-top:25px;
-            background:linear-gradient(80deg, #00c6a7,#1e4d92);
-            padding:14px 25px;
-            color:white;
-            border:none;
-            font-size:20px;
- 
-        }
-
-        button:hover{
-            background:tomato;
-            color:pink;
-            cursor:pointer;
-         }
+   }
+   
+   .container{
         
-        .dot {
-            height: 25px;
-            width: 25px;
-            padding:270px;
-            background:linear-gradient(50deg, #00c6a7,#1e4d92);
-             border-radius: 50%;
-            display: inline-block;
-            margin-left:700px;
-            margin-top:-230px;
+    width:27%;
+    height:638px;
+    border:2px solid;
+    margin-top:-43px;
+    margin-left:5px;
+    background:black;
+    opacity:0.9;
+   }
+   
+   .container h1{
 
-          }
-          .container h1{
+      color:white;
+      text-align:center;
+       margin-top:80px;
+    }
 
-            margin-left:802px;
-            margin-top:-450px;
-            font-size:130px;
-            color:white;
-            text-transform:uppercase;
-          }
+    .paragraph p{
+          
+        margin-top:40px;
+        text-align:justify;
+        color:darkgray;
+        font-weight:normal;
+         padding:35px;
+ 
+    }
 
-          .image1 img{
+    .para1{
 
-            width:45%;
-            height:70%;
-            margin-left:730px;
-            margin-top:-350px;
-  
-  
+       text-transform:uppercase;
+       color:white;
+       margin-left:90px;
+       margin-top:-45px;
+ 
+    }
+
+    .order{
+         
+        margin-left:25px;
 
  
-           }
+    }
+
+    .btn{
+
+         border:2px solid white;
+         padding:5px 27px;
+         background:black;
+         color:white;
+    }
+    
+    .btn:hover{
+
+        background:rgb(230, 165, 46);
+        cursor:pointer; 
+         transition:0.5s all;
+
+    }
+
+
+   
