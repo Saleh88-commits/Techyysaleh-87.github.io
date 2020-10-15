@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid-19 affected pie chart</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
-    <div class="main">
-        <div class="center">
-            <h1>Bangladesh Top 5 Districts With Highest Covid-19 Cases</h1>
+    <div class="styleform">
+        <form name="form">
+        <input type="text" name="answer"><br></br>
+        <input type="button" value="1" onclick="form.answer.value += '1' ">
+        <input type="button" value="2" onclick="form.answer.value += '2' ">
+        <input type="button" value="3" onclick="form.answer.value += '3' ">
+        <br></br>
+        <input type="button" value="4" onclick="form.answer.value += '4' ">
+        <input type="button" value="5" onclick="form.answer.value += '5' ">
+        <input type="button" value="6" onclick="form.answer.value += '6' ">
+        <br></br>
+        <input type="button" value="7" onclick="form.answer.value += '7' ">
+        <input type="button" value="8" onclick="form.answer.value += '8' ">
+        <input type="button" value="9" onclick="form.answer.value += '9' ">
+        <br></br>
+        <input type="button" value="+" onclick="form.answer.value += '+' ">
+        <input type="button" value="-" onclick="form.answer.value += '-' ">
+        <input type="button" value="*" onclick="form.answer.value += '*' " id="mul">
+        <br></br>
 
-            <div class="pie-chart">
-            <p>
-                Dhaka 90,918 <span style="color:#ee5253"></span><br>
-                Chittagong 75,622 <span style="color:#f28e2c"></span><br>
-                Sylhet  65,130 <span style="color:#f368e0"></span><br>
-                Khulna  48,788 <span style="color:#0abde3"></span><br>
-                Rajshahi 33,911 <span style="color:rgb(214, 214, 50)"></span><br>   
-            </p>
-            <h3>Bangladesh Covid-19 Cases Till Now</h3>
-         </div>
+        <input type="button" value="/" onclick="form.answer.value += '/' ">
+        <input type="button" value="0" onclick="form.answer.value += '0' ">
+        <input type="button" value="=" onclick="form.answer.value  = eval(form.answer.value) ">
+        <br></br>
+
+        <input type="button" value="Clear All" onclick="form.answer.value='' " id="clear">
+        
+        </form>
     </div>
-    
-</body>
+ </body>
 </html>
