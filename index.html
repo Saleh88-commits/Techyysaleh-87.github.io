@@ -3,39 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Coding Blog Post</title>
+    <link rel="stylesheet" href="main.css">
+    
 </head>
 <body>
+    
+    <nav>
+ 
+        <ul>
+            <div class="post">
+            <p>Welcome to our Blog Post</p>
+            </div>
 
-    <div class="styleform">
-        <form name="form">
-        <input type="text" name="answer"><br></br>
-        <input type="button" value="1" onclick="form.answer.value += '1' ">
-        <input type="button" value="2" onclick="form.answer.value += '2' ">
-        <input type="button" value="3" onclick="form.answer.value += '3' ">
-        <br></br>
-        <input type="button" value="4" onclick="form.answer.value += '4' ">
-        <input type="button" value="5" onclick="form.answer.value += '5' ">
-        <input type="button" value="6" onclick="form.answer.value += '6' ">
-        <br></br>
-        <input type="button" value="7" onclick="form.answer.value += '7' ">
-        <input type="button" value="8" onclick="form.answer.value += '8' ">
-        <input type="button" value="9" onclick="form.answer.value += '9' ">
-        <br></br>
-        <input type="button" value="+" onclick="form.answer.value += '+' ">
-        <input type="button" value="-" onclick="form.answer.value += '-' ">
-        <input type="button" value="*" onclick="form.answer.value += '*' " id="mul">
-        <br></br>
+ 
+             <li><a href="/">Home</a></li>
+            <li><a href="/post.html">Posts</a></li>
+            <li><a href="/about.html">About Me</a></li>
+          </ul>
+ 
+     </nav>
+ 
+     <header class="photo" >
 
-        <input type="button" value="/" onclick="form.answer.value += '/' ">
-        <input type="button" value="0" onclick="form.answer.value += '0' ">
-        <input type="button" value="=" onclick="form.answer.value  = eval(form.answer.value) ">
-        <br></br>
+        <img src="coding10.jpg" alt="original" width="100%">
+        <div class="text-block">
+            <marquee>Welcome to our  Blog  Website</marquee>
+        </div>
+    </header>
 
-        <input type="button" value="Clear All" onclick="form.answer.value='' " id="clear">
-        
-        </form>
+    <div class="content-block">
+    <h3>Check out my latest posts</h3>
     </div>
- </body>
+
+    
+
+    
+
+
+             
+  </body>
 </html>
